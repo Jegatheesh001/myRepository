@@ -1,0 +1,12 @@
+
+/.metadata/
+
+/RemoteSystemsTempFiles/
+
+/docs/
+/examples/
+/host-manager/
+/manager/
+/ROOT/
+
+/testSpring/WEB-INF/classes/*
