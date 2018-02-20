@@ -1,0 +1,15 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+	<include file="struts-default.xml" />
+	<include file="springDemo/package-config.xml"></include>
+	<include file="springDemo/admin-config.xml"></include>
+	<include file="springDemo/spring-config.xml"></include>
+	<include file="springDemo/eclinic-config.xml"></include>
+	<include file="springDemo/chat-config.xml"></include>
+	<include file="springDemo/test/messenger/messenger-config.xml"></include>
+	
+	<constant name="struts.action.excludePattern" value="/ws/*"></constant>
+</struts>

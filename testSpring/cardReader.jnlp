@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/testSpring/" href="cardReader.jnlp">
+	<information>
+        <title>Card Reader</title>
+        <vendor>Jegatheeesh</vendor>
+        <homepage href="http://localhost:8080/" />
+        <description>Card Reader</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.6+" />
+		<jar href="CardReader.jar" />
+	</resources>
+	<application-desc main-class="com.myweb.jnlp.MyJnlp" />
+</jnlp>
