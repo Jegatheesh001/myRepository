@@ -9,4 +9,6 @@
 /manager/
 /ROOT/
 
+/testSpring/target/*
+/testSpring/uploads/*
 /testSpring/WEB-INF/classes/*
