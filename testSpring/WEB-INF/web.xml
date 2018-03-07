@@ -40,6 +40,31 @@
 		<servlet-name>jersey-serlvet</servlet-name>
 		<url-pattern>/webapi/*</url-pattern>
 	</servlet-mapping>
+	
+	<context-param>
+		<param-name>crystal_image_uri</param-name>
+		<param-value>/resources/reports/crystalreportviewers</param-value>
+	</context-param>
+	<context-param>
+		<param-name>crystal_image_use_relative</param-name>
+		<param-value>webapp</param-value>
+	</context-param>
+	<context-param>
+		<param-name>crystal_exception_info</param-name>
+		<param-value>long</param-value>
+	</context-param>
+	<context-param>
+		<param-name>crystal_document_view</param-name>
+		<param-value>weblayout</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>CrystalReportViewerServlet</servlet-name>
+		<servlet-class>com.crystaldecisions.report.web.viewer.CrystalReportViewerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CrystalReportViewerServlet</servlet-name>
+		<url-pattern>/CrystalReportViewerHandler</url-pattern>
+	</servlet-mapping>
 
 	<!-- <session-config> <tracking-mode>COOKIE</tracking-mode> </session-config> -->
 	<!-- <session-config> <session-timeout>30</session-timeout> </session-config> -->
