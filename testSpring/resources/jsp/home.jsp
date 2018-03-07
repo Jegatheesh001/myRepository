@@ -26,6 +26,7 @@
 	<a href="htmlDragger.action">HTML Dragger</a>&nbsp;||&nbsp;
 	<a href="base64ToImage.action">Base64 To Image</a>&nbsp;||&nbsp;
 	<a href="wsClient.action">WebSocket Client</a>&nbsp;||&nbsp;
+	<a href="resources/jsp/CrystalBase.jsp">Crystal Report</a>&nbsp;||&nbsp;
 
 	<div id="applets" style="display: none; margin: 15px;">
 		<a href="scanEmiratesId.action">Emirates Id Scanner</a><br />
