@@ -9,6 +9,7 @@
 /host-manager/
 /manager/
 /ROOT/
+/reportModule/
 
 /testSpring/target/*
 /testSpring/uploads/*
